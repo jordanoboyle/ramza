@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get "/shiva", controller: "summons", action: "shiva"
 
   get "/cure" => "spells#cure"
+
+  get "/physical", controller: "attacks", action: "sword"
   # Defines the root path route ("/")
   # root "posts#index"
 
