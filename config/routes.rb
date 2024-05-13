@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   get "/ifrit" => "summons#ifrit"
 
   get "/shiva", controller: "summons", action: "shiva"
+
+  get "/cure" => "spells#cure"
   # Defines the root path route ("/")
   # root "posts#index"
+
+
 end
